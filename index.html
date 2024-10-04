@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="https://th.bing.com/th/id/R.f5c55f5d4981533d5e339cc49943fc98?rik=5SLzsQDX7yCyhg&riu=http%3a%2f%2fb1ca250e5ed661ccf2f1-da4c182123f5956a3d22aa43eb816232.r10.cf1.rackcdn.com%2fcontentItem-1494701-7661069-mu9jvkboxy1ax-or.jpg&ehk=0BpjG%2fRqnZ5DQ34iPosyik1Zs6wTgwo2%2bw%2fdKAC1opA%3d&risl=&pid=ImgRaw&r=0" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            animation: body-gradient 5s ease infinite;
+            background: linear-gradient(45deg, #FFFFFF, #000000); /* Чисто белый и черный */
+            background-size: 200% 200%;
+        }
+
+        /* Анимация для фона сайта с чистыми белым и черным */
+        @keyframes body-gradient {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        /* Современное модальное окно */
+        .modal {
+            width: 400px;
+            height: 450px;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.1); /* Легкая, полупрозрачная белая рамка */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-size: 200% 200%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Легкая тень */
+        }
+
+        /* Анимация для фона модального окна с чистыми белым и черным */
+        @keyframes modal-gradient {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        /* Общий стиль для кнопок */
+        .btn {
+            padding: 12px 30px;
+            font-size: 14px;
+            text-transform: uppercase;
+            background-color: #000000; /* Чисто черный */
+            border: 2px solid #FFFFFF; /* Чисто белая рамка */
+            color: #FFFFFF; /* Чисто белый текст */
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 8px;
+            font-family: 'Arial', sans-serif;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        /* Эффекты при наведении для всех кнопок */
+        .btn:hover {
+            background-color: #FFFFFF;
+            color: #000000;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Фоновая музыка -->
+    <audio autoplay loop>
+        <source src="https://s.muzrecord.com/files/6ynthmane-feat-5sta-family-amp-babyboi-zachem.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Современное модальное окно с чистыми черным и белым цветами -->
+    <div class="modal">
+        <a href="https://www.twitch.tv/v_vqqlov" target="_blank" class="btn">Twitch</a>
+        <a href="https://t.me/V_w_qq" target="_blank" class="btn">Telegram</a>
+        <a href="https://discordapp.com/users/809136675153248256/" target="_blank" class="btn">Discord</a>
+        <a href="https://store.steampowered.com/profiles/765561199168006217/" target="_blank" class="btn">Steam</a>
+        <a href="https://open.spotify.com/playlist/2i4hgwbgpyxdl4psjzysy?si=03c1d630ee37453fS" target="_blank" class="btn">Spotify</a>
+    </div>
+</body>
+</html>
